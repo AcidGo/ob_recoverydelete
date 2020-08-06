@@ -5,7 +5,7 @@ import json
 import sys
 
 
-def main()
+def main():
     if len(sys.argv) != 2:
         raise ValueError("invalid~~~")
     clog_dump_file = sys.argv[1]
